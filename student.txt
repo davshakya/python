@@ -1,0 +1,17 @@
+('Manan,', '8,', '2,', '987654321,', 'Orai\n')('Manav,', '7,', '2,', '123456789,', 'Orai', '\n')('Dhrv,', '5,', '1,', '765432,', 'Orai', '\n')('Dev,', '12,', '12,', '12345,', 'Orai\n')
+('de,', '1,', '1,', '33,', 'dd')
+('deveevev,', '222,', '222,', '222222,', 'Orai')
+Dev2222123Orai
+Deve22336543Orai
+Name:- Devendra
+Age:-12
+Class_name:- 12
+Contact:-12345678
+City:- Orai
+
+Name:- Devendra
+Age:-35
+Class_name:- MBA
+Contact:-1234567
+City:- Orai
+

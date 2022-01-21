@@ -1,0 +1,26 @@
+
+Dev
+Manan
+Manav
+dev
+mana
+manan
+Dev2
+Manav3
+Manav3
+Manan4
+('Student Name:- Devendra', '\n', 'class:- MBA')
+('Student Name:- Manan', '\n', 'class:- 2nd')
+Student Name:- deveclass:- maba
+('Student Name:- deve', '\n', 'class:- maba')
+('Student Name:- devendra', ' ', 'class:- maba')
+('Student Name:- deve', 'class:- maba')
+Devendra
+MBA
+Name student:-Manan
+Name class:-2nd
+Name student:-Manav
+Name class:-2nd
+Name student:-Dev
+Name class:-MBA
+
