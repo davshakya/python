@@ -1,14 +1,20 @@
-"""Encapsulation Getter and Setter"""
+"""Private Variable"""
+# class Private_Variable:
+#     __name="Ravi"
+#     def __init__(self):
+#         print(self.__name)
+#         self.__dispaly()
+#     def __dispaly(self):
+#         print("Welcome Python")
+# obj=Private_Variable()
 
-class Student():
+
+"""Private Method"""
+class Private_Variable:
     def __init__(self):
-        self.__name=""
-    def getname(self):
-        return self.__name
-    def setname(self,name):
-        self.__name=name
-        
-obj=Student()
-obj.setname("Tester")
-name=obj.getname()
-print(name)
+        self.__dispaly()
+    def __dispaly(self):
+        print("Welcome Python")
+obj=Private_Variable()
+
+
