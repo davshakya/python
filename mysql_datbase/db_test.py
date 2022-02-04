@@ -1,26 +1,20 @@
-# importing required library 
-import mysql.connector 
- 
-# connecting to the database 
-dataBase = mysql.connector.connect
+import mysql.connector as mysql_cnt
+mydb = mysql_cnt.connect(
                      host = "localhost",
+                     port=3306,
                      user = "root",
                      passwd = "tiger",
-                     database = "students" )  
- 
-# preparing a cursor object 
-cursorObject = dataBase.cursor() 
-# creating table  
-studentRecord = """CREATE TABLE Employee ( 
-                   NAME  VARCHAR(20) NOT NULL, 
-                   BRANCH VARCHAR(50), 
-                   ROLL INT NOT NULL,
-                   SECTION VARCHAR(5), 
-                   AGE INT
-                   )"""
- 
-# table created
-cursorObject.execute(studentRecord)  
- 
-# disconnecting from server
-dataBase.close()
+                     database="employee"
+                        )  
+if mydb.is_connected():                                  
+    print("Connection Done")
+else:
+    print("Not Connected")  
+mycursor = mydb.cursor()
+
+    
+tb="insert into employee_tb(emp_id, fst_name, lst_name, salary, city) values(%s,%s,%s,%s,%s)"  
+tp=(104,'Dhruv', 'Verma', 30000,'Orai')
+mycursor.execute(tb,tp)
+mydb.commit()
+print("Command Executed...")
