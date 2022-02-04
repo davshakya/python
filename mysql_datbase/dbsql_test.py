@@ -19,7 +19,7 @@ try:
     # tp=(105,'Mint2', 'Shakya', 10000,'Orai')
     # mycursor.execute(tb,tp)
     # mydb.commit()
-    tb="select * from employee_tb"  
+    tb="select * from employee_tb" 
     print("Command Executed...")
 except:
     print("data error....")
