@@ -27,3 +27,4 @@ mycursor.execute(tb)
 for x in mycursor:
   print(x)
 
+
