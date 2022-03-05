@@ -61,3 +61,4 @@ for i in range(len(lst)):
     k=int(lst[i])+k
     if i==(len(lst)-1):
         print(k)
+print(sum(lst))
