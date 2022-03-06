@@ -7,6 +7,6 @@ def check_prime(x):
     if len(lst)==2:
         print(p,"is a prime number")
     else:
-        print(p,"is not prime number")
+        print(p,"is composite number number")
 p=int(input("Enter any number to check whether it is prime or not  = "))     
 check_prime(p)       
