@@ -8,3 +8,7 @@ for i in a:
 print(b+c)
 print("u" in c)
 print(b*3)
+
+
+
+

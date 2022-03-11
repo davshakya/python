@@ -62,3 +62,7 @@ for i in range(len(lst)):
     if i==(len(lst)-1):
         print(k)
 print(sum(lst))
+
+
+
+

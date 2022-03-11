@@ -2,7 +2,6 @@
 # while(i<=10):
 #  print(i)
 #  i=i+1
- 
 
 k=1
 j=int(input("Enter any number for table: "))
@@ -12,3 +11,6 @@ while(k<=10):
     k=k+1
 
 
+
+    
+    
