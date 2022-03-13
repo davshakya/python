@@ -10,3 +10,4 @@ def check_prime(x):
         print(p,"is composite number number")
 p=int(input("Enter any number to check whether it is prime or not  = "))     
 check_prime(p)       
+
