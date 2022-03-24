@@ -4,7 +4,7 @@ mydb = mysql_cnt.connect(
                      port=3306,
                      user = "root",
                      passwd = "tiger",
-                     database="employee"
+                     database="students"
                         )  
 if mydb.is_connected():                                  
     print("Connection Done")
@@ -13,8 +13,8 @@ else:
 mycursor = mydb.cursor()
 
     
-tb="insert into employee_tb(emp_id, fst_name, lst_name, salary, city) values(%s,%s,%s,%s,%s)"  
-tp=(104,'Dhruv', 'Verma', 30000,'Orai')
-mycursor.execute(tb,tp)
-mydb.commit()
-print("Command Executed...")
+# tb="insert into employee_tb(emp_id, fst_name, lst_name, salary, city) values(%s,%s,%s,%s,%s)"  
+# tp=(104,'Dhruv', 'Verma', 30000,'Orai')
+# mycursor.execute(tb,tp)
+# mydb.commit()
+# print("Command Executed...")
