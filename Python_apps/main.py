@@ -42,11 +42,12 @@ l=[2,3,4,5,6,7,4,3,44,4,5,9,8,7]
 # x=t.count(10)
 # print(type(x))
 
-thisset = {"apple", "banana", "cherry"}
+# thisset = {"apple", "banana", "cherry"}
+# thisset.add("orange")
+# print(thisset)
 
-thisset.add("orange")
 
-print(thisset)
+
 
 
  
