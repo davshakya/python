@@ -87,9 +87,54 @@ import random
 # b=a[:2,1:4]
 # print(b)
 
+# np.random.seed(1)
+# a=np.random.randint(1,500,30).reshape(5,6)
+# print(a) 
+# mat=a[:3,1:3]
+# print(mat)
+# mat=a[3:5,3:6]
+# print(mat)
 
-a=np.random.randint(1,100,12).reshape(3,4)
+# l=[3,4,5,2,4,5,]
+# a=np.array(l)
+# b=a[2:4].copy()
+# b[:]=0
+# print(a)
+
+# l=[3,4,15,12,14,5,]
+# b=np.array(l)
+# print(b>10)
+
+# b=np.arange(1,15)
+# print(b>10)
+# print(b[b>5])
+# print(b[b%2==0])
+# print(b[b%2!=0])
+# b[b>6]=0
+# print(b)
+
+# ar=np.arange(10,19).reshape(3,3)
+# br=np.arange(30,39).reshape(3,3)
+# print(ar)
+# print(ar*2)
+# print(ar**2)
+# print(ar/0)
+# print(br)
+# print(ar+br)
+# print(ar=br)
+# print(ar.dot(br))
+
+a=np.arange(1,10).reshape(3,3) 
 print(a)
 
- 
- 
+# a=lambda x,y:x+y
+# print(a(3,4))
+print(a.T)
+print(np.transpose(a))
+
+
+
+
+
+
+
