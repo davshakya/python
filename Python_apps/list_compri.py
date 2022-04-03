@@ -1,0 +1,1 @@
+print([item for item in range(1,11) if item%2==0])

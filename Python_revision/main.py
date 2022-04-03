@@ -10,11 +10,17 @@
 # a=input("Enter you name: ")
 # print(a)
 
-lst=[12,15,3,10]
-sum=int(lst[0])+int(lst[1])+int(lst[2])+int(lst[3])
-# print(sum)
-k=0
-for i in range(len(lst)):
-	k=int(lst[i])+k
-    if i==len(lst):
-        print(k)
+# lst=[12,15,3,10]
+# sum=int(lst[0])+int(lst[1])+int(lst[2])+int(lst[3])
+# # print(sum)
+# k=0
+# for i in range(len(lst)):
+# 	k=int(lst[i])+k
+#     if i==len(lst):
+#         print(k)
+
+import random
+x=random.randrange([1:10]2)
+# x=random.randint(1,10)
+
+print(x)

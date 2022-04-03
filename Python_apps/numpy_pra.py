@@ -20,8 +20,8 @@ import random
 # print(np.eye(2))
 # print(np.diag([2,3,4]))
 
-# a=np.random.randint(1,50,6)
-# print(a)
+a=np.random.randint(1,50,6)
+print(a)
 
 # a=np.random.rand(3)
 # print(a)
@@ -124,13 +124,13 @@ import random
 # print(ar=br)
 # print(ar.dot(br))
 
-a=np.arange(1,10).reshape(3,3) 
-print(a)
+# a=np.arange(1,10).reshape(3,3) 
+# print(a)
 
-# a=lambda x,y:x+y
-# print(a(3,4))
-print(a.T)
-print(np.transpose(a))
+# # a=lambda x,y:x+y
+# # print(a(3,4))
+# print(a.T)
+# print(np.transpose(a))
 
 
 

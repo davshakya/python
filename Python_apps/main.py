@@ -1,3 +1,8 @@
+
+
+from math import factorial
+
+
 s="deVEendra Singh shakya"
 # print(s[2])
 # print(s[-3:-6:-1])
@@ -44,11 +49,6 @@ l=[2,3,4,5,6,7,4,3,44,4,5,9,8,7]
 
 # thisset = {"apple", "banana", "cherry"}
 # thisset.add("orange")
-# print(thisset)
-
-
-
-
-
- 
+# print(thisset) 
+print(factorial(5))
 
