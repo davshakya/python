@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://example.com/item-1</loc>
+      <lastmod>2022-06-02T00:00:00Z</lastmod>
+      <changefreq>Devendra</changefreq>
+   </url>
+   <url>
+      <loc>https://example.com/item-2</loc>
+      <lastmod>2022-06-02T11:34:37Z</lastmod>
+      <changefreq>tiger</changefreq>
+   </url>
+   <url>
+      <loc>https://example.com/item-3</loc>
+      <lastmod>2022-06-03T19:24:47Z</lastmod>
+      <changefreq>apple</changefreq>
+   </url>
+</urlset>

@@ -1,0 +1,22 @@
+{"ver": "1.0",
+"key":"venkat",
+"encrypt":"0",
+"messages": [
+  {
+    "dest": ["919894858802"],
+    "text":"hello dev",
+    "template id": "Test1234",
+    "template_values":["var1","var2","var3","var4","var4","var5"],
+    "send": "alerts",
+    "vp": 30,
+    "type":"UC",
+     "sch_at": "2022-06-29 13:15:00",
+    "dlt_entity_id":12,
+    "dlt_template_id":"0001",
+    "tag1": "12345",
+    "tag2": "12345",
+    "tag3": "12345",
+    "tag4": "12345",
+    "tag5": "12345"
+  }
+  ]}

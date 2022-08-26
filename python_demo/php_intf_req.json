@@ -1,0 +1,14 @@
+{
+  "php_intf": [
+    {
+      "uname": "L1team",
+      "pass": "L1team",
+      "dest": "919629801838",
+      "send": "Alerts",
+      "msg": "TEST%20`MESSAGE%20PM%20less%20than%20160`"
+    }
+
+  ]
+}
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request ver="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sms_request.xsd">
+    <key>venkat</key>
+    <encrpt>0</encrpt>
+    <sch_at></sch_at>
+    <messages>
+        <text>Sir/Madam, As per P Report-May 2015, your Branch spent Rs. [05 CY] under 98055-Charges, Local Printing, Purchases. As CMC is monitoring this expense, plz advise details by mail to agmcsd.lhohyd@sbi.co.in. With regards, CM(Procurement),040-23466954</text>
+        <destinations>
+            <dest>919894858802</dest>
+        </destinations>
+        <send>Alerts</send>
+        <type>PM</type>
+        <dlt_entity_id>12345</dlt_entity_id>
+        <dlt_template_id>0001</dlt_template_id>
+        <dlr_req>1</dlr_req>
+        <vp>4</vp>
+        <app_country>0</app_country>
+        <country_cd>91</country_cd>
+        <template_values>
+            <values>name1</values>
+            <values>Pune</values>
+             <values>3th</values>
+             <values>Kurebhar</values>
+        </template_values>
+        <urltrack>0</urltrack>
+        <cust_ref>cust_ref</cust_ref>
+        <tag1>tag111</tag1>
+        <tag2>tag222</tag2>
+        <tag3>tag333</tag3>
+        <tag4>tag444</tag4>
+        <tag5>tag555</tag5>
+    </messages>
+</request>
