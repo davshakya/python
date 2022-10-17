@@ -37,7 +37,7 @@ harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rohan", 455, "Student")
 karan = Employee.from_dash("Karan-480-Student")
 
-subham=programmer("Subham", 555, "programmer", ["JAVA","C++"])
+subham = programmer("Subham", 555, "programmer", ["JAVA","C++"])
 karam=programmer("Karam", 444, "programmer", ["python"])
 print(karam.printprog()) 
 print(subham.printprog()) 

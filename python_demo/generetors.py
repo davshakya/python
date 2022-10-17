@@ -6,5 +6,5 @@ def count():
 
 # for i in count():
 #         print(i)
-c = count()
-print(c.next())
+# c = count()
+# print(c.next())
