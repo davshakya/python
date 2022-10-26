@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a1c050-dc99-4ac4-9160-036131dc7f2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Networking_practice/Telnet_Practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RE_practice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RE_practice/.idea/RE_practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RE_practice/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RE_practice/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RE_practice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RE_practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_demo/requests_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_demo/restapi/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops Python/Inheritence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oops Python/Inheritence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops Python/inher_multlvl.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oops Python/inher_multlvl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_apps/randome_expp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_apps/randome_expp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_demo/demo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_demo/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_demo/demo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_demo/generetors.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_demo/generetors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_demo/string_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_demo/string_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/demo/selenium"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/demo/selenium&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.randome_expp">
     <configuration name="calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
