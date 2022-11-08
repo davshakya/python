@@ -13,5 +13,5 @@ class IRCTC:
             
     def train_schedule(self):
         train_number=int(input("Enter Train number"))
-    def fetch_data(self,train_no)
-        data=http://indianrailapi.com/api/v2/TrainSchedule/apikey/<apikey>/TrainNumber/21999/
+    def fetch_data(self,train_no):
+        data="http://indianrailapi.com/api/v2/TrainSchedule/apikey/<apikey>/TrainNumber/21999/"
