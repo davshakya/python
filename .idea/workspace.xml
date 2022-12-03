@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a1c050-dc99-4ac4-9160-036131dc7f2e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Robot_frm/Robo_API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/Practice_from_scrach.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kivy/seekbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kivy/seekbar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_apps/IRCTC_App.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_apps/IRCTC_App.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_apps/YoutubeDownloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_apps/YoutubeDownloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_apps/qrcode_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_apps/qrcode_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_apps/speed_testApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_apps/speed_testApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_revision/armstrong.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_revision/armstrong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tkinter/listbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter/listbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium" beforeDir="false" afterPath="$PROJECT_DIR$/selenium" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/Practice1/checkBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/Practice1/checkBox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/python_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/python_practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/selenium_practice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/selenium_practice2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/sss.png" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/sss.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,30 +30,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EFYqSjkpyCRTXCcVTL1QvRsbqj" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/demo/python",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/demo/python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Python.calc">
     <configuration name="calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,10 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calc" />
         <item itemvalue="Python.randome_expp" />
         <item itemvalue="Python.mongo_db" />
         <item itemvalue="Python.inher_multlvl" />
-        <item itemvalue="Python.calc" />
         <item itemvalue="Python.calc2" />
       </list>
     </recent_temporary>
