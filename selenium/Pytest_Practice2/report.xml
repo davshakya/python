@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="6" time="0.235" timestamp="2022-06-09T11:27:39.333690" hostname="DESKTOP-0JVRGJC"><testcase classname="test_pytest1" name="test_1" time="0.002"><failure message="assert 30 == 20">def test_1():
+        x=30
+        y=20
+&gt;       assert x==y
+E       assert 30 == 20
+
+test_pytest1.py:4: AssertionError</failure></testcase><testcase classname="test_pytest1" name="test_2" time="0.001" /><testcase classname="test_pytest1" name="test_3" time="0.001"><failure message="AssertionError: Title not matched&#10;assert 'jenkins' in 'Jenkins is CI server'">def test_3():
+        name="jenkins"
+        title="Jenkins is CI server"
+&gt;       assert name in title,"Title not matched"
+E       AssertionError: Title not matched
+E       assert 'jenkins' in 'Jenkins is CI server'
+
+test_pytest1.py:14: AssertionError</failure></testcase><testcase classname="test_pytest2" name="test_login" time="0.002" /><testcase classname="test_pytest2" name="test_checkout" time="0.001" /><testcase classname="test_pytest2" name="test_logout" time="0.003" /></testsuite></testsuites>
