@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.9.13 on win32)" generated="20230116 10:20:07.857" rpa="false" schemaversion="2">
+<suite id="s1" name="test case for API" source="d:\demo\python\Robot_frm\test_case_for_API.robot">
+<test id="s1-t1" name="Test_to_get_userInfo">
+<kw name="Create Session" library="RequestsLibrary">
+<arg>myssion</arg>
+<arg>${base_url}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20230116 10:20:07.947" level="INFO">Creating Session using : alias=myssion, url== "https://reqres.in", headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20230116 10:20:07.946" endtime="20230116 10:20:07.950"/>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<var>${response}</var>
+<arg>myssion</arg>
+<arg>/api/users/${user_iD}</arg>
+<doc>*DEPRECATED* Please use `GET On Session` instead.</doc>
+<msg timestamp="20230116 10:20:07.952" level="WARN">Keyword 'RequestsLibrary.Get Request' is deprecated. Please use `GET On Session` instead.</msg>
+<msg timestamp="20230116 10:20:07.958" level="FAIL">InvalidSchema: No connection adapters were found for '= "https:/reqres.in"/api/users/"1"'</msg>
+<status status="FAIL" starttime="20230116 10:20:07.952" endtime="20230116 10:20:07.958"/>
+</kw>
+<kw name="log to console ${response.status_code}">
+<status status="NOT RUN" starttime="20230116 10:20:07.960" endtime="20230116 10:20:07.961"/>
+</kw>
+<kw name="log to console ${response.content}">
+<status status="NOT RUN" starttime="20230116 10:20:07.963" endtime="20230116 10:20:07.963"/>
+</kw>
+<kw name="log to console ${response.headers}">
+<status status="NOT RUN" starttime="20230116 10:20:07.965" endtime="20230116 10:20:07.966"/>
+</kw>
+<status status="FAIL" starttime="20230116 10:20:07.945" endtime="20230116 10:20:07.967">InvalidSchema: No connection adapters were found for '= "https:/reqres.in"/api/users/"1"'</status>
+</test>
+<status status="FAIL" starttime="20230116 10:20:07.861" endtime="20230116 10:20:07.969"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="test case for API">test case for API</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230116 10:20:07.952" level="WARN">Keyword 'RequestsLibrary.Get Request' is deprecated. Please use `GET On Session` instead.</msg>
+</errors>
+</robot>
