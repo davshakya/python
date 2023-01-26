@@ -3,7 +3,6 @@ class Employee:
     company="google"
     salary=10000
     @classmethod
-
     def getinfo(cls,sal):
         cls.salary=sal
         
