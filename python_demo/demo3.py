@@ -10,9 +10,10 @@
 #         print(value)
 
 
-from datetime import timedelta
-from datetime import datetime
-x = datetime.now() + timedelta(minutes=10)
+# from datetime import timedelta
+# from datetime import datetime
+# x = datetime.now() + timedelta(minutes=10)
+# print(x)
 
-print(x)
+
 
