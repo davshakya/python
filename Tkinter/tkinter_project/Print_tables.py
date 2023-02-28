@@ -3,10 +3,10 @@ root=Tk()
 def table():
    for x in range(1,11):
         res=int(a.get())*x
-        f=open("table.csv","a")
+        f=open("table.text","a")
         f.write(str(res))
         f.write("\n")
-        f=open("table.csv","r")
+        f=open("table.text","r")
         label_text.set(f.read())
 label_text=StringVar()
 Label(root, text="Enter any number for print table:").grid(row=0, column=0)

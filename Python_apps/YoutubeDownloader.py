@@ -1,11 +1,8 @@
 import pytube
-
-print("******** Welcome to e-lalita Youtube Downloader ********")
-
-
 def youtube_downloder():
-    link = input("Enter any youtube link : ")
-    res = input("Choose any one resolution from 144p, 360p, 720p & 1080p: ")
+    print("******** Welcome to 'e-lalita Youtube Downloader' ********")
+    link = input("Enter url of your youtube video link : ")
+    res = input("Choose any one resolution from 360p, 480p, 720p & 1080p: ")
     ytube = pytube.YouTube(link)
     print("Title:", ytube.title)
     print("Author:", ytube.author)
@@ -15,14 +12,13 @@ def youtube_downloder():
     ytube.streams.get_by_resolution(res).download()
     print("Video successfullly downloaded from", link)
 
-
 while True:
     try:
         youtube_downloder()
     except:
-        print("Something is wrong with input data, please try with another resolution or URL")
+        print("Something is wrong with YOURinput data, please try again")
     finally:
-        print("Thanks for choosing this application")
+        print("Thanks for choosing this application.")
     Exit_Key = input("\nPress x for exit or Press Enter for conitnue..: ")
     if Exit_Key == "x":
         break
