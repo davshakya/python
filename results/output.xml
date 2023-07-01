@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230701 17:02:01.151" rpa="false" schemaversion="3">
+<suite id="s1" name="Python" source="D:\Dev_Progs\python">
+<suite id="s1-s1" name="Robot selenium practice" source="D:\Dev_Progs\python\Robot_selenium_practice">
+<suite id="s1-s1-s1" name="TC1" source="D:\Dev_Progs\python\Robot_selenium_practice\TC1.robot">
+<test id="s1-s1-s1-t1" name="LoginTest" line="10">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>chrome</arg>
+<arg>executable_path="C:\work\chromedriver.exe"</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20230701 17:02:01.452" level="INFO">Creating an instance of the chrome WebDriver.</msg>
+<msg timestamp="20230701 17:02:01.452" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230701 17:02:01.452" level="FAIL">TypeError: 'module' object is not callable</msg>
+<status status="FAIL" starttime="20230701 17:02:01.452" endtime="20230701 17:02:01.460"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20230701 17:02:01.460" endtime="20230701 17:02:01.460"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230701 17:02:01.460" endtime="20230701 17:02:01.460"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20230701 17:02:01.460" endtime="20230701 17:02:01.460"/>
+</kw>
+<kw name="LoginToApplication">
+<status status="NOT RUN" starttime="20230701 17:02:01.460" endtime="20230701 17:02:01.460"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://input[@value='radio1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230701 17:02:01.468" endtime="20230701 17:02:01.468"/>
+</kw>
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<var>${isExist}</var>
+<arg>Element Should Be Visible</arg>
+<arg>${radio}</arg>
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<status status="NOT RUN" starttime="20230701 17:02:01.468" endtime="20230701 17:02:01.468"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${isExist}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230701 17:02:01.468" endtime="20230701 17:02:01.468"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230701 17:02:01.468" endtime="20230701 17:02:01.468"/>
+</kw>
+<status status="FAIL" starttime="20230701 17:02:01.452" endtime="20230701 17:02:01.468">TypeError: 'module' object is not callable</status>
+</test>
+<status status="FAIL" starttime="20230701 17:02:01.223" endtime="20230701 17:02:01.476"/>
+</suite>
+<status status="FAIL" starttime="20230701 17:02:01.207" endtime="20230701 17:02:01.484"/>
+</suite>
+<status status="FAIL" starttime="20230701 17:02:01.183" endtime="20230701 17:02:01.484"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Python">Python</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Robot selenium practice">Python.Robot selenium practice</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="TC1">Python.Robot selenium practice.TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

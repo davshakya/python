@@ -26,7 +26,7 @@ songstatus=StringVar()
 songstatus.set("choosing")
 playlist=Listbox(root,selectmode=SINGLE,bg="Gray",fg="Yellow",font=('Ariel',15),width=40,highlightthickness=15,highlightcolor='yellow',)
 playlist.grid(columnspan=5)
-os.chdir(r'c:\songs')
+os.chdir(r'C:\Users\davsh\Music')
 songs=os.listdir()
 for s in songs:
     playlist.insert(END,s)

@@ -15,10 +15,10 @@ url_put="https://reqres.in/api/users/2"
 # resp_json = resp.json()
 # print(resp_json)
 
-payload = {"job": "tester"}
-resp=requests.patch(url_put,data=payload)
-resp_json = resp.json()
-print(resp_json)
+# payload = {"job": "tester"}
+# resp=requests.patch(url_put,data=payload)
+# resp_json = resp.json()
+# print(resp_json)
 
 
 # r=requests.get(url)
@@ -28,7 +28,7 @@ print(resp_json)
 # print(r.cookies)
 # print(r.history)
 # print(r.json())
-#
+
 # json_response=r.json()
 # code=r.status_code
 # assert code == 200

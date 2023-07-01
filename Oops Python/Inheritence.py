@@ -16,7 +16,7 @@ class Employee:
     @classmethod
     def from_dash(cls, string):
         return cls(*string.split("-"))
-
+  
     @staticmethod
     def printgood(string):
         print("This is good " + string)
@@ -31,8 +31,6 @@ class programmer(Employee):
     def printprog(self):
         return f"The Name is {self.name}. Salary is {self.salary}, and role is {self.role}, and Languages are{self.languages}"
     
-
-
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rohan", 455, "Student")
 karan = Employee.from_dash("Karan-480-Student")
