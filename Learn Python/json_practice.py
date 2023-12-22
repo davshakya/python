@@ -9,7 +9,5 @@ headers_data={"Accept":"application/json", "Content-Type":"application/json","pa
 response = requests.request("POST", url, headers=headers_data, data=data_json)
 response_dict=response.json()
 print("#####",response_dict)
-
 print(response_dict["data"]["auth-token"])
-
 

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a1c050-dc99-4ac4-9160-036131dc7f2e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/demo_ytube.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/progressbaar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops Python/Inheritence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oops Python/Inheritence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tkinter/Tkinter_learn/LYDApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter/Tkinter_learn/LYDApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kudiyee Ni Teri (Selfiee) – Akshay Kumar  Mrunal Thakur  The PropheC  Tanishk B  Zahrah S Khan.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Kudiyee Ni Teri (Selfiee) – Akshay Kumar  Mrunal Thakur  The PropheC  Tanishk B  Zahrah S Khan.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_file.dat" beforeDir="false" afterPath="$PROJECT_DIR$/student_file.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2EFYqSjkpyCRTXCcVTL1QvRsbqj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,6 +46,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.client_test.executor": "Run",
+    "Python.server_test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -51,9 +57,10 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_mysql.py">
+  <component name="RunManager">
     <configuration name="WindowsTab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,6 +82,7 @@
     </configuration>
     <configuration name="randome_expp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -96,6 +104,7 @@
     </configuration>
     <configuration name="Python tests for selenium_practice.test_selenium_demo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -110,6 +119,7 @@
     </configuration>
     <configuration name="Python tests for test_practice.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -124,6 +134,7 @@
     </configuration>
     <configuration name="Python tests in test_mysql.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -145,6 +156,13 @@
         <item itemvalue="Python tests.Python tests for selenium_practice.test_selenium_demo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

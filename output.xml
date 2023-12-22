@@ -1,58 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230701 16:59:30.031" rpa="false" schemaversion="3">
-<suite id="s1" name="TC1" source="d:\Dev_Progs\python\Robot_selenium_practice\TC1.robot">
-<test id="s1-t1" name="LoginTest" line="10">
-<kw name="Create Webdriver" library="SeleniumLibrary">
-<arg>chrome</arg>
-<arg>executable_path="C:\work\chromedriver.exe"</arg>
-<doc>Creates an instance of Selenium WebDriver.</doc>
-<msg timestamp="20230701 16:59:30.416" level="INFO">Creating an instance of the chrome WebDriver.</msg>
-<msg timestamp="20230701 16:59:30.416" level="INFO">Cannot capture screenshot because no browser is open.</msg>
-<msg timestamp="20230701 16:59:30.416" level="FAIL">TypeError: 'module' object is not callable</msg>
-<status status="FAIL" starttime="20230701 16:59:30.416" endtime="20230701 16:59:30.424"/>
-</kw>
+<robot generator="Robot 6.0.2 (Python 3.9.13 on win32)" generated="20230930 15:45:10.731" rpa="false" schemaversion="3">
+<suite id="s1" name="Tc2" source="d:\Dev_Progs\python\Robot_frm\tc2.robot">
+<test id="s1-t1" name="ListBox" line="11">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="NOT RUN" starttime="20230701 16:59:30.424" endtime="20230701 16:59:30.424"/>
+<msg timestamp="20230930 15:45:10.970" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<msg timestamp="20230930 15:45:14.499" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230930 15:45:14.499" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.132 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x010AA813+48355]
+	(No symbol) [0x0103C4B1]
+	(No symbol) [0x00F45358]
+	(No symbol) [0x00F661AC]
+	(No symbol) [0x00F61EF3]
+	(No symbol) [0x00F60579]
+	(No symbol) [0x00F90C55]
+	(No symbol) [0x00F9093C]
+	(No symbol) [0x00F8A536]
+	(No symbol) [0x00F682DC]
+	(No symbol) [0x00F693DD]
+	GetHandleVerifier [0x0130AABD+2539405]
+	GetHandleVerifier [0x0134A78F+2800735]
+	GetHandleVerifier [0x0134456C+2775612]
+	GetHandleVerifier [0x011351E0+616112]
+	(No symbol) [0x01045F8C]
+	(No symbol) [0x01042328]
+	(No symbol) [0x0104240B]
+	(No symbol) [0x01034FF7]
+	BaseThreadInitThunk [0x76327BA9+25]
+	RtlInitializeExceptionChain [0x77A0BC5B+107]
+	RtlClearBits [0x77A0BBDF+191]
+</msg>
+<status status="FAIL" starttime="20230930 15:45:10.970" endtime="20230930 15:45:14.499"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="NOT RUN" starttime="20230701 16:59:30.424" endtime="20230701 16:59:30.432"/>
+<status status="NOT RUN" starttime="20230930 15:45:14.499" endtime="20230930 15:45:14.499"/>
 </kw>
-<kw name="Set Selenium Speed" library="SeleniumLibrary">
-<arg>3</arg>
-<doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="NOT RUN" starttime="20230701 16:59:30.432" endtime="20230701 16:59:30.432"/>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230930 15:45:14.499" endtime="20230930 15:45:14.499"/>
 </kw>
-<kw name="LoginToApplication">
-<status status="NOT RUN" starttime="20230701 16:59:30.432" endtime="20230701 16:59:30.432"/>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>Admin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230930 15:45:14.499" endtime="20230930 15:45:14.510"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230930 15:45:14.512" endtime="20230930 15:45:14.512"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>admin123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230930 15:45:14.513" endtime="20230930 15:45:14.514"/>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
-<arg>xpath://input[@value='radio1']</arg>
+<arg>xpath://button[@type='submit']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" starttime="20230701 16:59:30.432" endtime="20230701 16:59:30.432"/>
+<status status="NOT RUN" starttime="20230930 15:45:14.514" endtime="20230930 15:45:14.515"/>
 </kw>
-<kw name="Run Keyword And Return Status" library="BuiltIn">
-<var>${isExist}</var>
-<arg>Element Should Be Visible</arg>
-<arg>${radio}</arg>
-<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
-<status status="NOT RUN" starttime="20230701 16:59:30.432" endtime="20230701 16:59:30.432"/>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>oxd-icon bi-caret-down-fill oxd-select-text--arrow</arg>
+<arg>Freelance</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="NOT RUN" starttime="20230930 15:45:14.515" endtime="20230930 15:45:14.516"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${isExist}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="NOT RUN" starttime="20230701 16:59:30.432" endtime="20230701 16:59:30.432"/>
-</kw>
-<kw name="Close Browser" library="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="NOT RUN" starttime="20230701 16:59:30.432" endtime="20230701 16:59:30.432"/>
-</kw>
-<status status="FAIL" starttime="20230701 16:59:30.409" endtime="20230701 16:59:30.432">TypeError: 'module' object is not callable</status>
+<status status="FAIL" starttime="20230930 15:45:10.955" endtime="20230930 15:45:14.516">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 117.0.5938.132 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x010AA813+48355]
+	(No symbol) [0x0103C4B1]
+	(No symbol) [0x00F45358]
+	(No symbol) [0x00F661AC]
+	(No symbol) [0x00F61EF3]
+	(No symbol) [0x00F60579]
+	(No symbol) [0x00F90C55]
+	(No symbol) [0x00F9093C]
+	(No symbol) [0x00F8A536]
+	(No symbol) [0x00F682DC]
+	(No symbol) [0x00F693DD]
+	GetHandleVerifier [0x0130AABD+2539405]
+	GetHandleVerifier [0x0134A78F+2800735]
+	GetHandleVerifier [0x0134456C+2775612]
+	GetHandleVerifier [0x011351E0+616112]
+	(No symbol) [0x01045F8C]
+	(No symbol) [0x01042328]
+	(No symbol) [0x0104240B]
+	(No symbol) [0x01034FF7]
+	BaseThreadInitThunk [0x76327BA9+25]
+	RtlInitializeExceptionChain [0x77A0BC5B+107]
+	RtlClearBits [0x77A0BBDF+191]
+</status>
 </test>
-<status status="FAIL" starttime="20230701 16:59:30.038" endtime="20230701 16:59:30.440"/>
+<status status="FAIL" starttime="20230930 15:45:10.737" endtime="20230930 15:45:14.520"/>
 </suite>
 <statistics>
 <total>
@@ -61,7 +111,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="TC1">TC1</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tc2">Tc2</stat>
 </suite>
 </statistics>
 <errors>

@@ -21,13 +21,13 @@ url_put="https://reqres.in/api/users/2"
 # print(resp_json)
 
 
-# r=requests.get(url)
+r=requests.get(url)
 # print(r.headers)
 # print(r.text)
 # print(r.content)
 # print(r.cookies)
 # print(r.history)
-# print(r.json())
+print(r.json())
 
 # json_response=r.json()
 # code=r.status_code
