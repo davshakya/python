@@ -1,35 +1,9 @@
 import re
 st = "davshakya@gmail.com"
-d{k,v for k,v }
-
-
-
-
-
-
-
-
-
-
-
-
 # r=re.findall(r'[^\w\s]',st)
 #
 # r=re.findall(r'\.',st)
 # print(r)
-
-
-
-
-
-
-
-
-
-
-
-
-
 # r=re.findall(r'[^MRD]a',st)
 # r=re.findall(r'[a-zA-Z]',st)
 #
@@ -41,9 +15,6 @@ d{k,v for k,v }
 # r=re.finditer("Manav",st)
 # for i in r:
 #     print(i.span())
-
-
-
 
 # r=re.findall("dav",st)
 # name=re.findall(r'[A-Z][a-z]*',st)
@@ -59,3 +30,9 @@ d{k,v for k,v }
 # print(mark)
 #
 
+st2="harry12341 pot765ter"
+# match =re.search(r"\Aha",st2)
+# match =re.search(r"er\b",st2)
+match =re.findall(r"\d[1]{1,4}",st2)
+
+print(match)

@@ -1,7 +1,9 @@
 import socket
 
 ob = socket.socket()
-ob.connect(('localhost', 2301))
+# ob.connect(('localhost', 2301))
+ob.bind(('192.168.1.43', 2301))
+
 # msg = "hello this is first client"
 # ob.send(msg.encode("utf-8"))
 # ob.close()
@@ -14,5 +16,5 @@ while conn:
         ob.close()
     else:
         ob.send(msg.encode("utf-8"))
-
+        
 
