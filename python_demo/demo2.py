@@ -1,35 +1,31 @@
-json_file={
-  "request": {
-    "key": "venkat",
-    "encrpt": 0,
-    "messages": {
-      "text": "Sir/Madam, As per P Report-May 2015, your Branch spent Rs. [05 CY] under 98055-Charges, Local Printing, Purchases. As CMC is monitoring this expense, plz advise details by mail to agmcsd.lhohyd@sbi.co.in. With regards, CM(Procurement),040-23466954",
-      "destinations": {
-        "dest": 919894858802
-      },
-      "send": "Alerts",
-      "type": "PM",
-      "dlt_entity_id": 12345,
-      "dlt_template_id": 1,
-      "dlr_req": 1,
-      "vp": 4,
-      "app_country": 0,
-      "country_cd": 91,
-      "template_values": {
-        "values": [
-          "name1",
-          "Pune",
-          "3th",
-          "Kurebhar"
-        ]
-      },
-      "urltrack": 0,
-      "cust_ref": "cust_ref",
-      "tag1": "tag111",
-      "tag2": "tag222",
-      "tag3": "tag333",
-      "tag4": "tag444",
-      "tag5": "tag555"
-    }
-  }
-}
+import pytest
+import requests
+
+@pytest.fixture
+def base_url():
+    return "https://api.example.com"
+
+@pytest.fixture
+def setup_teardown():
+    # Setup code (if needed)
+    yield
+    # Teardown code (if needed)
+
+def test_get_request(base_url, setup_teardown):
+    url = f"{base_url}/endpoint"
+    response = requests.get(url)
+
+    # Example assertion, modify as needed
+    assert response.status_code == 200
+    assert "expected_content" in response.text
+
+def test_post_request(base_url, setup_teardown):
+    url = f"{base_url}/endpoint"
+    payload = {"key": "value"}
+    headers = {"Content-Type": "application/json"}
+
+    response = requests.post(url, json=payload, headers=headers)
+
+    # Example assertion, modify as needed
+    assert response.status_code == 201
+    assert "created_id" in response.text
