@@ -19,5 +19,5 @@ while n<=5:
     print(" "*i+"*"*x)
     n=n+1
     x=x+2
-    i=i-1
-    
+    i=i-1             
+     

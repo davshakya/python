@@ -3,8 +3,8 @@ import sys
 import time
 
 ob = socket.socket()
-# ob.bind(('localhost', 2301))
-ob.bind(('192.168.1.43', 2301))
+ob.bind(('localhost', 2301))
+# ob.bind(('192.168.1.43', 2301))
 ob.listen()
 client_obj, add = ob.accept()
 print("Server is ready to accept connection")

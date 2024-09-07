@@ -14,7 +14,7 @@ c="Kumar"
 # print(b[:3])
 # print(len(a))
 # print(a.capitalize())
-# print(a.find("v"))
+print(a.find("w"))
 # print(a.find("z"))
 # print(a.count("e"))
 # print(a.count("e",2,6))
