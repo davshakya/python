@@ -1,5 +1,5 @@
 import numpy as np
-import random
+# import random
 # l=[1,2,3,4,5]
 # myarr=np.array(l)
 # print(myarr)
@@ -20,8 +20,8 @@ import random
 # print(np.eye(2))
 # print(np.diag([2,3,4]))
 
-a=np.random.randint(1,50,6)
-print(a)
+# a=np.random.randint(1,50,6)
+# print(a)
 
 # a=np.random.rand(3)
 # print(a)
@@ -132,6 +132,37 @@ print(a)
 # print(a.T)
 # print(np.transpose(a))
 
+import sys
+
+l=[1,2,3,4,5]
+# print(sys.getsizeof(l))
+
+# n= np.array(l)
+# print(n)
+# print(sys.getsizeof(n))
+
+# n = np.array([[1,2,3],[3,4,5]])
+# n = np.array([[[1,2],[4,5]], [[7,9],[6,7]]])
+# n=np.arange(1,10,2)
+
+
+# n= np.arange(1,13).reshape(2,6)
+# n= np.zeros((2,3))
+n= np.ones((2,3))
+
+# n= np.linspace(1,11,10, dtype=int)
+# n = np.identity(7, dtype=np.int32)
+# print(n)
+# print(n.itemsize)
+# print(n.dtype)
+# print(n.size)
+# print(n.ndim)
+# print(n.shape)
+# print(type(n))
+n.astype(np.int32)
+print(sys.getsizeof(n))
+print(n*8)
+print(n<8)
 
 
 
