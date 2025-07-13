@@ -1,62 +1,94 @@
 from tkinter import *
-from tkinter.ttk import Progressbar
-from tkinter import ttk
-import pytube
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
+from tkinter.ttk import Progressbar, Combobox
+from pytube import YouTube
+import threading
 
+# GUI Window Setup
 root = Tk()
-root.title("Lalita Youtube Downloader 1.2")
-root.geometry("600x400")
+root.title("Lalita YouTube Downloader 1.5")
+root.geometry("600x350")
+root.resizable(False, False)
+root.configure(bg="#f8f9fa")
 
-def retrieve_input():
+# Global Variables
+video_streams = []
+yt = None
+
+# Fetch Video Info
+def fetch_streams():
+    global yt, video_streams
+    url = url_entry.get().strip()
+    if not url:
+        messagebox.showwarning("Missing URL", "Please enter a YouTube video URL.")
+        return
     try:
-        link=textBox.get("1.0","end-1c")
-        print(link)
-        ytube = pytube.YouTube(link)
-        choice=v.get()
-        if choice == 0:
-            res="360p"
-            ytube.streams.get_by_resolution(res).download()
-        if choice == 1:
-            res="480p"
-            ytube.streams.get_by_resolution(res).download()
-        if choice == 2:
-            res="720p"
-            ytube.streams.get_by_resolution(res).download()
-        if choice == 3:
-            res="1080p"
-            ytube.streams.get_by_resolution(res).download()      
-        messagebox.showinfo("Information","Hey! Your video has been doanloaded successfully.\n Thank you for using this application.")
-    except:
-        messagebox.showerror("Error", "Try Again! \n There is something wrong with your video link or try with other resolution.")
+        yt = YouTube(url, on_progress_callback=on_progress)
+        video_streams = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc()
+        if not video_streams:
+            raise Exception("No progressive video streams found.")
 
-def close():
-   #win.destroy()
-   root.quit()       
-   
-menu = Menu(root)
-root.config(menu=menu)
-filemenu = Menu(menu)
-menu.add_cascade(label='File', menu=filemenu)
-filemenu.add_command(label='Exit', command=root.quit)
-helpmenu = Menu(menu)
-menu.add_cascade(label='Help', menu=helpmenu)
-helpmenu.add_command(label='More about Lalita Enterprises')
-v = IntVar()
-inuttext=Label(root, text='Enter the URL of your youtube video link in text box :\n', padx=2).pack(anchor=W)
-textBox=Text(root, height=1, width=60,relief='solid', background="yellow")
-textBox.pack()
-inuttext=Label(root, text='\n Please select resolution from below:', padx=1).pack(anchor=W)
+        # Show available resolutions
+        resolutions = [stream.resolution for stream in video_streams]
+        quality_menu['values'] = resolutions
+        quality_menu.current(0)
 
-v = IntVar()
-rb1=Radiobutton(root, text='360p', variable=v, value=0).pack(anchor=W)
-rb2=Radiobutton(root, text='480p', variable=v, value=1).pack(anchor=W)
-rb3=Radiobutton(root, text='720p HD', variable=v, value=2).pack(anchor=W)
-rb4=Radiobutton(root, text='1080p Full HD', variable=v, value=3).pack(anchor=W)
+        title_label.config(text=f"Title: {yt.title}", fg="blue")
+        status_label.config(text="Video found. Choose resolution and download.", fg="green")
+    except Exception as e:
+        title_label.config(text="")
+        status_label.config(text=f"Error: {str(e)}", fg="red")
+        messagebox.showerror("Error", f"Could not fetch video.\n{e}\n\n📌 Tip: Run this if error persists:\n\npip install --upgrade pytube")
 
-pb = ttk.Progressbar(root, orient="horizontal", length=600, mode="determinate").pack(anchor=W,padx=7,pady=7)
+# Download Thread Starter
+def start_download():
+    threading.Thread(target=download_video).start()
 
-Button(root,text="Download",font=("Calibri",12,"bold"),bd=5,command=retrieve_input,relief=GROOVE,justify=LEFT).pack(side=LEFT,padx=150)
-Button(root, text= "Close", font=("Calibri",12,"bold"),bd=5,relief=GROOVE, command=close).pack(side=LEFT)
+# Download Video
+def download_video():
+    try:
+        stream = video_streams[quality_menu.current()]
+        folder = filedialog.askdirectory()
+        if not folder:
+            return
+        status_label.config(text="Downloading...", fg="orange")
+        progress_bar['value'] = 0
+        stream.download(output_path=folder)
+        status_label.config(text="Download completed!", fg="green")
+        messagebox.showinfo("Success", "Video downloaded successfully!")
+    except Exception as e:
+        status_label.config(text=f"Download failed: {str(e)}", fg="red")
+        messagebox.showerror("Download Error", str(e))
+
+# Progress Callback
+def on_progress(stream, chunk, bytes_remaining):
+    total = stream.filesize
+    downloaded = total - bytes_remaining
+    percent = int((downloaded / total) * 100)
+    progress_bar['value'] = percent
+    root.update_idletasks()
+
+# UI Layout
+Label(root, text="🎥 YouTube Video URL:", font=("Arial", 12), bg="#f8f9fa").pack(pady=10)
+url_entry = Entry(root, width=60, font=("Arial", 11))
+url_entry.pack(pady=2)
+
+Button(root, text="Fetch Video Info", command=fetch_streams, bg="#28a745", fg="white", font=("Arial", 10)).pack(pady=5)
+
+title_label = Label(root, text="", font=("Arial", 11, "bold"), bg="#f8f9fa")
+title_label.pack(pady=4)
+
+Label(root, text="Select Resolution:", font=("Arial", 11), bg="#f8f9fa").pack()
+quality_menu = Combobox(root, state="readonly", width=15, font=("Arial", 11))
+quality_menu.pack(pady=4)
+
+Button(root, text="Download Video", command=start_download, bg="#007bff", fg="white", font=("Arial", 11)).pack(pady=10)
+
+progress_bar = Progressbar(root, length=400, mode='determinate')
+progress_bar.pack(pady=10)
+
+status_label = Label(root, text="", font=("Arial", 10), bg="#f8f9fa", fg="black")
+status_label.pack()
+
+# Start GUI
 root.mainloop()
-

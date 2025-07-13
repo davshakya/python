@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a1c050-dc99-4ac4-9160-036131dc7f2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/advance_python/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/notepad_1.5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/pdfViewer_1.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.txt" beforeDir="false" afterPath="$PROJECT_DIR$/table.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robot_frm/tc1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Robot_frm/tc1.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tkinter/LYDApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter/LYDApp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +35,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;davshakya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/davshakya/python.git&quot;,
+    &quot;accountId&quot;: &quot;d8e0392e-6359-42b7-a5cd-55982e47969e&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,7 +58,7 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2EFYqSjkpyCRTXCcVTL1QvRsbqj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -44,18 +70,31 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python tests.Python tests for selenium_practice.test_selenium_demo.executor": "Run",
+    "Python.LYDApp.executor": "Run",
+    "Python.Mp3player.executor": "Run",
+    "Python.Music.executor": "Run",
+    "Python.News_app.executor": "Run",
+    "Python.Notepad_final.executor": "Run",
     "Python.WindowsTab.executor": "Run",
+    "Python.YoutubeDownloader.executor": "Run",
     "Python.armstrong.executor": "Run",
+    "Python.calc2.executor": "Run",
     "Python.client_test.executor": "Run",
     "Python.db_test.executor": "Run",
     "Python.demo1.executor": "Run",
+    "Python.demo_ytube.executor": "Run",
     "Python.mysql_python.executor": "Run",
+    "Python.notepad_1.5.executor": "Run",
     "Python.panda_df.executor": "Run",
+    "Python.pdfViewer_1.0.executor": "Run",
+    "Python.prime_number.executor": "Run",
+    "Python.progressbaar.executor": "Run",
     "Python.randome_expp.executor": "Run",
     "Python.seekbar.executor": "Run",
     "Python.seekbar1.executor": "Run",
     "Python.server_test.executor": "Run",
     "Python.upd_packet.executor": "Run",
+    "Robot Framework.run [LoginTest].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -64,7 +103,9 @@
     "git-widget-placeholder": "master__dev",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/Dev_Progs/docker_practice/demo_3",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,7 +119,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -93,8 +134,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662192989964</updated>
+      <workItem from="1748675840283" duration="118000" />
+      <workItem from="1748676343144" duration="282000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -109,5 +155,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tkinter/Music.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$panda_df.coverage" NAME="panda_df Coverage Results" MODIFIED="1748675944620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas_practice" />
   </component>
 </project>
